@@ -1,6 +1,6 @@
 baseURL: https://iamlow.github.io/artepiano/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Arte Piano
 theme: hugo-fresh
 
 params:
@@ -13,7 +13,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Arte Piano. Play.
     # Hero subtitle (optional)
     subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
     # Button text
