@@ -4,18 +4,18 @@ title: Arte Piano
 theme: hugo-fresh
 
 params:
-  navbarlogo:
-  # Logo (from static/images/logos/___)
-   image: logos/fresh.svg
-   link: /
+  # navbarlogo:
+  # # Logo (from static/images/logos/___)
+  #  image: logos/fresh.svg
+  #  link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Arte Piano. Play.
+    title: Arte Piano.
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: 최현철 (국가공인1급 Piano Tuner)
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -30,126 +30,127 @@ params:
     - infinite
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
+  # navbar:
+  # - title: Features
+  #   url: /
+  # - title: Pricing
+  #   url: /
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Arte Piano TFT
+    subtitle: 한국피아노조율사협회 정회원
     tiles:
-    - title: App builder
+    - title: 조율(T)
       icon: mouse-globe
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Free trial
-    - title: Cloud integration
+    - title: 조정(F)
       icon: laptop-cloud
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
-    - title: Add-ons & plugins
+    - title: 정음(T)
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: 최현철 
+    subtitle: 국가공인1급 조율사
     features:
-    - title: Powerful and unified interface
+    - title: 총신대학교, 대학원 조율
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
+    - title: 교회피아노 전문조율
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: doc-sync
-    - title: Nomad system
+    - title: 계원예술고등학교 조율
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
+  # section3:
+  #   title: One platform
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
   section4:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
-    - name: Irma Walters
+    - name: 총신대학교(원) 
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: Accountant
       img: 1
-    - name: John Bradley
+    - name: 교회피아노
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: Financial Analyst
       img: 2
-    - name: Gary Blackman
+    - name: 계원예고
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: HR Manager
       img: 3
+
   section5: true
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://iamlow.github.io/artepiano
       # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
     - link: https://facebook.com/#
       icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+    # - link: https://twitter.com/lucperkins
+    #   icon: twitter
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
+    bulmalogo: false
     quicklinks:
       column1:
-        title: "Product"
+        title: "Contact"
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+        - text: hp, 010.5049.4823
+          # link: /
+        - text: tel, 031.701.4823
+          # link: /
+        - text: fax, 031.701.4823
+          # link: /
+        - text: email, choi5558@hanmail.net
+          # link: /
+        # - text: AGB
+        #   link: /agb
+      # column2:
+      #   title: "Docs"
+      #   links:
+      #   - text: Get started
+      #     link: /
+      #   - text: User guides
+      #     link: /
+      #   - text: Admin guide
+      #     link: /
+      #   - text: Developers
+      #     link: /
+      # column3:
+      #   title: "Blog"
+      #   links:
+      #   - text: Latest news
+      #     link: /blog/first
+      #   - text: Tech articles
+      #     link: /blog/second
