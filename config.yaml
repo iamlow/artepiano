@@ -4,31 +4,32 @@ title: Arte Piano
 theme: hugo-fresh
 
 params:
-  # navbarlogo:
-  # # Logo (from static/images/logos/___)
-  #  image: logos/fresh.svg
-  #  link: /
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/footer.png
+   link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Arte Piano.
+    title: Arte Piano Tuning.
     # Hero subtitle (optional)
-    subtitle: 최현철 (국가공인1급 Piano Tuner)
+    # subtitle: 모차르트와 베토벤을 사랑하며, 음악이 주는 영혼의 소리를 좋아합니다.
+    subtitle: 다년간의 경험을 바탕으로 최선의 노력을 다하고 있습니다.
     # Button text
-    buttontext: Get started
+    buttontext: 최현철 (국가공인1급 Piano Tuner)
     # Where the main hero button links to
-    buttonlink: "#"
+    # buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: illustrations/title.jpg
     # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    # clientlogos:
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   # navbar:
   # - title: Features
@@ -48,39 +49,41 @@ params:
   # - title: Sign up
   #   url: /
   #   button: true
-  section1:
-    title: Arte Piano TFT
-    subtitle: 한국피아노조율사협회 정회원
-    tiles:
-    - title: 조율(T)
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: 조정(F)
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: 정음(T)
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+  # section1:
+  #   title: 주요 작업 경력
+  #   subtitle: 
+  #   tiles:
+  #   - title: 조율(T)
+  #     icon: mouse-globe
+  #     text: 음율을 정확하게 맞춤
+  #     url: /
+  #     buttonText: Tuning
+  #   - title: 조정(F)
+  #     icon: laptop-cloud
+  #     text: 피아노의 탄력성을 맞춤
+  #     url: /
+  #     buttonText: Function
+  #   - title: 정음(T)
+  #     icon: plug-cloud
+  #     text: 음색을 균형있게 작업
+  #     url: /
+  #     buttonText: True Sound
+
   section2:
-    title: 최현철 
-    subtitle: 국가공인1급 조율사
+    title: 주요 작업 경력 
+    # subtitle:
     features:
-    - title: 총신대학교, 대학원 조율
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: 총신대학교, 대학원 (피아노과) / 계원예술고등학교
+      # text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: 교회피아노 전문조율
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: 계원예술고등학교 조율
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
+      icon: school
+    - title: 교회 / 학원 / 개인 피아노 
+      text: 조율 출장 전문
+      icon: home-solid
+    - title: 피아노 조율 자격증 지도
+      text: 피아노 조율 기능사 및 1급 신업기사 자격증을 원하시는 분은 1:1 지도하오니 연락바랍니다. (필기, 실기 과정; 3개월, 6개월 코스)
+      icon: license
+
   # section3:
   #   title: One platform
   #   subtitle: To rule them all
@@ -88,35 +91,34 @@ params:
   #   buttonText: Get started
   #   buttonLink: "#"
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: Arte Piano T.F.T
+    subtitle: 조율, 조정, 정음은 전체의 환경을 유기적으로 연관 시켜 작업
     clients:
-    - name: 총신대학교(원) 
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
+    - name: 조율(Tuning) 
+      quote: 현 하나는 평균 80~90kg. 전체로는 약 20톤의 장력으로 당겨져 있습니다. 현을 감고 있는 튜닝핀을 튜닝헤머로 회전 조절하여 약 240개의 음율을 맞춥니다.
+      job: 음율을 정확하게 맞춤
       img: 1
-    - name: 교회피아노
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
+    - name: 조정(Function)
+      quote: 액션(Action)의 미세한 조정을 통해 탄력이 좋은 터치를 만드는 작업입니다. 액션부의 움직임과 건반의 높이와 깊이를 조정하여 88건반의 균형을 맞춥니다.
+      job: 피아노의 탄력성을 맞춤
       img: 2
-    - name: 계원예고
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
+    - name: 정음(Truesound)
+      quote: 전체 균형을 고려하면서 헤머에 보이싱 작업을 하여 펠트의 탄력을 조정해서 소리의 울림을 조절하여 아름답고 균형있는 음색을 만드는 중요한 작업입니다.
+      job: 음색을 균형있게 작업
       img: 3
-
-  section5: true
+  section5: false
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: footer.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://iamlow.github.io/artepiano
-      # Icons are from Font Awesome
-      icon: github
-    # - link: https://dribbble.com/#
-    #   icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
+    # socialmedia:
+    # - link: https://iamlow.github.io/artepiano
+    #   # Icons are from Font Awesome
+    #   icon: github
+    # # - link: https://dribbble.com/#
+    # #   icon: dribbble
+    # - link: https://facebook.com/#
+    #   icon: facebook
     # - link: https://twitter.com/lucperkins
     #   icon: twitter
     # - link: https://bitbucket.org/#
@@ -126,13 +128,13 @@ params:
       column1:
         title: "Contact"
         links:
-        - text: hp, 010.5049.4823
+        - text: hp; 010.5049.4823
+          link: #
+        - text: tel; 031.701.4823
           # link: /
-        - text: tel, 031.701.4823
+        - text: fax; 031.701.4823
           # link: /
-        - text: fax, 031.701.4823
-          # link: /
-        - text: email, choi5558@hanmail.net
+        - text: email; choi5558@hanmail.net
           # link: /
         # - text: AGB
         #   link: /agb
