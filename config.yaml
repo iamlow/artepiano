@@ -13,10 +13,10 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Arte Piano Tuning.
+    title: 아르테 피아노 조율.
     # Hero subtitle (optional)
     # subtitle: 모차르트와 베토벤을 사랑하며, 음악이 주는 영혼의 소리를 좋아합니다.
-    subtitle: 다년간의 경험을 바탕으로 최선의 노력을 다하고 있습니다.
+    subtitle: 다년간의 경험을 바탕으로 최선을 다하고 있습니다. 조율상담 환영!
     # Button text
     buttontext: 최현철 (국가공인1급 Piano Tuner)
     # Where the main hero button links to
@@ -80,8 +80,8 @@ params:
     - title: 교회 / 학원 / 개인 피아노 
       text: 조율 출장 전문
       icon: home-solid
-    - title: 피아노 조율 자격증 지도
-      text: 피아노 조율 기능사 및 1급 신업기사 자격증을 원하시는 분은 1:1 지도하오니 연락바랍니다. (필기, 실기 과정; 3개월, 6개월 코스)
+    - title: 피아노 조율 자격 시험 지도
+      text: 피아노 조율 기능사 및 1급 산업기사 자격증을 원하시는 분은 1:1 지도하오니 연락바랍니다. (필기, 실기 과정; 3개월, 6개월 코스)
       icon: license
 
   # section3:
@@ -103,7 +103,7 @@ params:
       job: 피아노의 탄력성을 맞춤
       img: 2
     - name: 정음(Truesound)
-      quote: 전체 균형을 고려하면서 헤머에 보이싱 작업을 하여 펠트의 탄력을 조정해서 소리의 울림을 조절하여 아름답고 균형있는 음색을 만드는 중요한 작업입니다.
+      quote: 전체 균형을 고려하면서 헤머에 보이싱 작업을 하여 벨트의 탄력을 조정해서 소리의 울림을 조절하여 아름답고 균형있는 음색을 만드는 중요한 작업입니다.
       job: 음색을 균형있게 작업
       img: 3
   section5: false
